@@ -6,154 +6,154 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
   <link rel="dns-prefetch" href="http://example.com">
-  <title>Hexo</title>
+  <title>c++笔记 | Hexo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta name="description" content="rand函数函数原型：int rand(void); 所需头文件： 功能和返回值：求出并返回一个伪随机数 srand函数原型：void srand(unsigned int seed) 参数：seed产生随机数的种子 所需头文件： 功能：为使rand()产生一序列伪随机整数而设置起始点。使用1作为seed参数，可以重新初化rand() 引用类型引用（&amp;）是标识符的别名 定义一个引用时，必须">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Hexo">
-<meta property="og:url" content="http://example.com/2021/01/19/C++%E7%AC%94%E8%AE%B0/index.html">
+<meta property="og:title" content="c++笔记">
+<meta property="og:url" content="http://example.com/2021/02/05/c-%E7%AC%94%E8%AE%B0/index.html">
 <meta property="og:site_name" content="Hexo">
 <meta property="og:description" content="rand函数函数原型：int rand(void); 所需头文件： 功能和返回值：求出并返回一个伪随机数 srand函数原型：void srand(unsigned int seed) 参数：seed产生随机数的种子 所需头文件： 功能：为使rand()产生一序列伪随机整数而设置起始点。使用1作为seed参数，可以重新初化rand() 引用类型引用（&amp;）是标识符的别名 定义一个引用时，必须">
 <meta property="og:locale" content="en_US">
-<meta property="og:image" content="c:/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210121102747393.png">
-<meta property="og:image" content="c:/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210121102833819.png">
-<meta property="og:image" content="c:/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210121141848048.png">
-<meta property="og:image" content="c:/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210121142409575.png">
-<meta property="og:image" content="c:/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210121142744892.png">
-<meta property="og:image" content="c:/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210121142920346.png">
-<meta property="og:image" content="c:/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210121143118110.png">
-<meta property="og:image" content="c:/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210121143308908.png">
-<meta property="og:image" content="c:/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210121144418687.png">
-<meta property="og:image" content="c:/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210122094053714.png">
-<meta property="og:image" content="c:/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210122094814458.png">
-<meta property="og:image" content="c:/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210122094913807.png">
-<meta property="og:image" content="c:/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210122101140029.png">
-<meta property="og:image" content="c:/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210122101744698.png">
-<meta property="og:image" content="c:/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210122101936044.png">
-<meta property="og:image" content="c:/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210122102043171.png">
-<meta property="og:image" content="c:/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210122101945521.png">
-<meta property="og:image" content="c:/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210122102249593.png">
-<meta property="og:image" content="c:/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210122102714455.png">
-<meta property="og:image" content="c:/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210122103029580.png">
-<meta property="og:image" content="c:/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210122103037466.png">
-<meta property="og:image" content="c:/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210122103130922.png">
-<meta property="og:image" content="c:/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210122103506425.png">
-<meta property="og:image" content="c:/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210122103519170.png">
-<meta property="og:image" content="c:/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210122103600302.png">
-<meta property="og:image" content="c:/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210122104104228.png">
-<meta property="og:image" content="c:/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210122104132243.png">
-<meta property="og:image" content="c:/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210122104212556.png">
-<meta property="og:image" content="c:/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210122110200620.png">
-<meta property="og:image" content="c:/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210122110301407.png">
-<meta property="og:image" content="c:/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210122110319126.png">
-<meta property="og:image" content="c:/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210122155754050.png">
-<meta property="og:image" content="c:/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210122155830478.png">
-<meta property="og:image" content="c:/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210122160813677.png">
-<meta property="og:image" content="c:/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210122162558366.png">
-<meta property="og:image" content="c:/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210122163044392.png">
-<meta property="og:image" content="c:/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210122163503829.png">
-<meta property="og:image" content="c:/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210123092545290.png">
-<meta property="og:image" content="c:/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210123092632967.png">
-<meta property="og:image" content="c:/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210123100323763.png">
-<meta property="og:image" content="c:/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210123100349157.png">
-<meta property="og:image" content="c:/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210123100425828.png">
-<meta property="og:image" content="c:/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210123101311590.png">
-<meta property="og:image" content="c:/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210123101422769.png">
-<meta property="og:image" content="c:/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210123101346440.png">
-<meta property="og:image" content="c:/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210123101429328.png">
-<meta property="og:image" content="c:/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210123101440429.png">
-<meta property="og:image" content="c:/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210123104438415.png">
-<meta property="og:image" content="c:/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210123104616035.png">
-<meta property="og:image" content="c:/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210123105511167.png">
-<meta property="og:image" content="c:/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210123105705057.png">
-<meta property="og:image" content="c:/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210123150859777.png">
-<meta property="og:image" content="c:/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210123151018273.png">
-<meta property="og:image" content="c:/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210124103911302.png">
-<meta property="og:image" content="c:/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210124104446858.png">
-<meta property="og:image" content="c:/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210124105417944.png">
-<meta property="og:image" content="c:/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210124105446150.png">
-<meta property="og:image" content="c:/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210124144844799.png">
-<meta property="og:image" content="c:/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210124144852803.png">
-<meta property="og:image" content="c:/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210124150346287.png">
-<meta property="og:image" content="c:/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210124160059582.png">
-<meta property="og:image" content="c:/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210124160618479.png">
-<meta property="og:image" content="c:/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210124160641223.png">
-<meta property="og:image" content="c:/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210124165951237.png">
-<meta property="og:image" content="c:/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210124170206202.png">
-<meta property="og:image" content="c:/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210124170927178.png">
-<meta property="og:image" content="c:/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210124171000859.png">
-<meta property="og:image" content="c:/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210124171042336.png">
-<meta property="og:image" content="c:/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210124171153792.png">
-<meta property="og:image" content="c:/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210127092321233.png">
-<meta property="og:image" content="c:/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210127092911223.png">
-<meta property="og:image" content="c:/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210127093158198.png">
-<meta property="og:image" content="c:/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210127093215836.png">
-<meta property="og:image" content="c:/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210127093225096.png">
-<meta property="og:image" content="c:/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210127093436814.png">
-<meta property="og:image" content="c:/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210127101035012.png">
-<meta property="og:image" content="c:/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210127105825117.png">
-<meta property="og:image" content="c:/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210127164900766.png">
-<meta property="og:image" content="c:/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210128101008242.png">
-<meta property="og:image" content="c:/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210128101805346.png">
-<meta property="og:image" content="c:/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210128102549276.png">
-<meta property="og:image" content="c:/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210128112456802.png">
-<meta property="og:image" content="c:/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210128112554221.png">
-<meta property="og:image" content="c:/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210128150803364.png">
-<meta property="og:image" content="c:/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210128152231128.png">
-<meta property="og:image" content="c:/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210128152427162.png">
-<meta property="og:image" content="c:/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210128161204132.png">
-<meta property="og:image" content="c:/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210128161231631.png">
-<meta property="og:image" content="c:/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210129091855502.png">
-<meta property="og:image" content="c:/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210129092410519.png">
-<meta property="og:image" content="c:/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210129093022316.png">
-<meta property="og:image" content="c:/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210130100454233.png">
-<meta property="og:image" content="c:/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210130101016225.png">
-<meta property="og:image" content="c:/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210130101122034.png">
-<meta property="og:image" content="c:/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210130101318527.png">
-<meta property="og:image" content="c:/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210130101541122.png">
-<meta property="og:image" content="c:/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210130101850506.png">
-<meta property="og:image" content="c:/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210130102332056.png">
-<meta property="og:image" content="c:/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210130102543547.png">
-<meta property="og:image" content="c:/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210130150227653.png">
-<meta property="og:image" content="c:/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210130151016588.png">
-<meta property="og:image" content="c:/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210130151501812.png">
-<meta property="og:image" content="c:/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210130151525653.png">
-<meta property="og:image" content="c:/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210130151559503.png">
-<meta property="og:image" content="c:/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210130151604365.png">
-<meta property="og:image" content="c:/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210130151858607.png">
-<meta property="og:image" content="c:/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210130152132088.png">
-<meta property="og:image" content="c:/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210130152217180.png">
-<meta property="og:image" content="c:/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210130152306861.png">
-<meta property="og:image" content="c:/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210130152529567.png">
-<meta property="og:image" content="c:/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210130153140029.png">
-<meta property="og:image" content="c:/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210130153307196.png">
-<meta property="og:image" content="c:/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210130154004087.png">
-<meta property="og:image" content="c:/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210130155943960.png">
-<meta property="og:image" content="c:/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210130160017338.png">
-<meta property="og:image" content="c:/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210130160052435.png">
-<meta property="og:image" content="c:/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210130161623461.png">
-<meta property="og:image" content="c:/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210201091204078.png">
-<meta property="og:image" content="c:/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210201091348531.png">
-<meta property="og:image" content="c:/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210201094142292.png">
-<meta property="og:image" content="c:/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210201094641641.png">
-<meta property="og:image" content="c:/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210202091019085.png">
-<meta property="og:image" content="c:/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210202091035934.png">
-<meta property="og:image" content="c:/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210202091818637.png">
-<meta property="og:image" content="c:/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210202093740043.png">
-<meta property="og:image" content="c:/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210202093805666.png">
-<meta property="og:image" content="c:/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210202094057542.png">
-<meta property="og:image" content="c:/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210203094420837.png">
-<meta property="og:image" content="c:/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210203095126978.png">
-<meta property="og:image" content="c:/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210203095237022.png">
-<meta property="og:image" content="c:/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210203103722876.png">
-<meta property="og:image" content="c:/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210203104514650.png">
-<meta property="og:image" content="c:/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210203104609504.png">
-<meta property="og:image" content="c:/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210203104939154.png">
-<meta property="article:published_time" content="2021-01-19T01:05:48.462Z">
-<meta property="article:modified_time" content="2021-02-03T02:49:40.561Z">
+<meta property="og:image" content="http://example.com/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210121102747393.png">
+<meta property="og:image" content="http://example.com/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210121102833819.png">
+<meta property="og:image" content="http://example.com/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210121141848048.png">
+<meta property="og:image" content="http://example.com/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210121142409575.png">
+<meta property="og:image" content="http://example.com/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210121142744892.png">
+<meta property="og:image" content="http://example.com/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210121142920346.png">
+<meta property="og:image" content="http://example.com/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210121143118110.png">
+<meta property="og:image" content="http://example.com/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210121143308908.png">
+<meta property="og:image" content="http://example.com/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210121144418687.png">
+<meta property="og:image" content="http://example.com/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210122094053714.png">
+<meta property="og:image" content="http://example.com/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210122094814458.png">
+<meta property="og:image" content="http://example.com/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210122094913807.png">
+<meta property="og:image" content="http://example.com/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210122101140029.png">
+<meta property="og:image" content="http://example.com/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210122101744698.png">
+<meta property="og:image" content="http://example.com/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210122101936044.png">
+<meta property="og:image" content="http://example.com/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210122102043171.png">
+<meta property="og:image" content="http://example.com/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210122101945521.png">
+<meta property="og:image" content="http://example.com/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210122102249593.png">
+<meta property="og:image" content="http://example.com/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210122102714455.png">
+<meta property="og:image" content="http://example.com/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210122103029580.png">
+<meta property="og:image" content="http://example.com/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210122103037466.png">
+<meta property="og:image" content="http://example.com/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210122103130922.png">
+<meta property="og:image" content="http://example.com/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210122103506425.png">
+<meta property="og:image" content="http://example.com/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210122103519170.png">
+<meta property="og:image" content="http://example.com/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210122103600302.png">
+<meta property="og:image" content="http://example.com/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210122104104228.png">
+<meta property="og:image" content="http://example.com/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210122104132243.png">
+<meta property="og:image" content="http://example.com/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210122104212556.png">
+<meta property="og:image" content="http://example.com/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210122110200620.png">
+<meta property="og:image" content="http://example.com/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210122110301407.png">
+<meta property="og:image" content="http://example.com/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210122110319126.png">
+<meta property="og:image" content="http://example.com/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210122155754050.png">
+<meta property="og:image" content="http://example.com/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210122155830478.png">
+<meta property="og:image" content="http://example.com/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210122160813677.png">
+<meta property="og:image" content="http://example.com/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210122162558366.png">
+<meta property="og:image" content="http://example.com/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210122163044392.png">
+<meta property="og:image" content="http://example.com/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210122163503829.png">
+<meta property="og:image" content="http://example.com/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210123092545290.png">
+<meta property="og:image" content="http://example.com/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210123092632967.png">
+<meta property="og:image" content="http://example.com/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210123100323763.png">
+<meta property="og:image" content="http://example.com/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210123100349157.png">
+<meta property="og:image" content="http://example.com/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210123100425828.png">
+<meta property="og:image" content="http://example.com/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210123101311590.png">
+<meta property="og:image" content="http://example.com/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210123101422769.png">
+<meta property="og:image" content="http://example.com/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210123101346440.png">
+<meta property="og:image" content="http://example.com/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210123101429328.png">
+<meta property="og:image" content="http://example.com/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210123101440429.png">
+<meta property="og:image" content="http://example.com/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210123104438415.png">
+<meta property="og:image" content="http://example.com/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210123104616035.png">
+<meta property="og:image" content="http://example.com/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210123105511167.png">
+<meta property="og:image" content="http://example.com/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210123105705057.png">
+<meta property="og:image" content="http://example.com/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210123150859777.png">
+<meta property="og:image" content="http://example.com/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210123151018273.png">
+<meta property="og:image" content="http://example.com/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210124103911302.png">
+<meta property="og:image" content="http://example.com/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210124104446858.png">
+<meta property="og:image" content="http://example.com/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210124105417944.png">
+<meta property="og:image" content="http://example.com/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210124105446150.png">
+<meta property="og:image" content="http://example.com/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210124144844799.png">
+<meta property="og:image" content="http://example.com/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210124144852803.png">
+<meta property="og:image" content="http://example.com/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210124150346287.png">
+<meta property="og:image" content="http://example.com/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210124160059582.png">
+<meta property="og:image" content="http://example.com/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210124160618479.png">
+<meta property="og:image" content="http://example.com/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210124160641223.png">
+<meta property="og:image" content="http://example.com/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210124165951237.png">
+<meta property="og:image" content="http://example.com/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210124170206202.png">
+<meta property="og:image" content="http://example.com/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210124170927178.png">
+<meta property="og:image" content="http://example.com/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210124171000859.png">
+<meta property="og:image" content="http://example.com/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210124171042336.png">
+<meta property="og:image" content="http://example.com/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210124171153792.png">
+<meta property="og:image" content="http://example.com/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210127092321233.png">
+<meta property="og:image" content="http://example.com/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210127092911223.png">
+<meta property="og:image" content="http://example.com/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210127093158198.png">
+<meta property="og:image" content="http://example.com/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210127093215836.png">
+<meta property="og:image" content="http://example.com/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210127093225096.png">
+<meta property="og:image" content="http://example.com/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210127093436814.png">
+<meta property="og:image" content="http://example.com/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210127101035012.png">
+<meta property="og:image" content="http://example.com/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210127105825117.png">
+<meta property="og:image" content="http://example.com/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210127164900766.png">
+<meta property="og:image" content="http://example.com/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210128101008242.png">
+<meta property="og:image" content="http://example.com/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210128101805346.png">
+<meta property="og:image" content="http://example.com/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210128102549276.png">
+<meta property="og:image" content="http://example.com/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210128112456802.png">
+<meta property="og:image" content="http://example.com/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210128112554221.png">
+<meta property="og:image" content="http://example.com/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210128150803364.png">
+<meta property="og:image" content="http://example.com/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210128152231128.png">
+<meta property="og:image" content="http://example.com/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210128152427162.png">
+<meta property="og:image" content="http://example.com/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210128161204132.png">
+<meta property="og:image" content="http://example.com/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210128161231631.png">
+<meta property="og:image" content="http://example.com/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210129091855502.png">
+<meta property="og:image" content="http://example.com/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210129092410519.png">
+<meta property="og:image" content="http://example.com/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210129093022316.png">
+<meta property="og:image" content="http://example.com/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210130100454233.png">
+<meta property="og:image" content="http://example.com/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210130101016225.png">
+<meta property="og:image" content="http://example.com/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210130101122034.png">
+<meta property="og:image" content="http://example.com/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210130101318527.png">
+<meta property="og:image" content="http://example.com/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210130101541122.png">
+<meta property="og:image" content="http://example.com/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210130101850506.png">
+<meta property="og:image" content="http://example.com/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210130102332056.png">
+<meta property="og:image" content="http://example.com/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210130102543547.png">
+<meta property="og:image" content="http://example.com/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210130150227653.png">
+<meta property="og:image" content="http://example.com/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210130151016588.png">
+<meta property="og:image" content="http://example.com/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210130151501812.png">
+<meta property="og:image" content="http://example.com/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210130151525653.png">
+<meta property="og:image" content="http://example.com/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210130151559503.png">
+<meta property="og:image" content="http://example.com/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210130151604365.png">
+<meta property="og:image" content="http://example.com/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210130151858607.png">
+<meta property="og:image" content="http://example.com/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210130152132088.png">
+<meta property="og:image" content="http://example.com/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210130152217180.png">
+<meta property="og:image" content="http://example.com/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210130152306861.png">
+<meta property="og:image" content="http://example.com/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210130152529567.png">
+<meta property="og:image" content="http://example.com/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210130153140029.png">
+<meta property="og:image" content="http://example.com/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210130153307196.png">
+<meta property="og:image" content="http://example.com/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210130154004087.png">
+<meta property="og:image" content="http://example.com/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210130155943960.png">
+<meta property="og:image" content="http://example.com/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210130160017338.png">
+<meta property="og:image" content="http://example.com/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210130160052435.png">
+<meta property="og:image" content="http://example.com/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210130161623461.png">
+<meta property="og:image" content="http://example.com/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210201091204078.png">
+<meta property="og:image" content="http://example.com/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210201091348531.png">
+<meta property="og:image" content="http://example.com/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210201094142292.png">
+<meta property="og:image" content="http://example.com/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210201094641641.png">
+<meta property="og:image" content="http://example.com/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210202091019085.png">
+<meta property="og:image" content="http://example.com/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210202091035934.png">
+<meta property="og:image" content="http://example.com/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210202091818637.png">
+<meta property="og:image" content="http://example.com/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210202093740043.png">
+<meta property="og:image" content="http://example.com/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210202093805666.png">
+<meta property="og:image" content="http://example.com/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210202094057542.png">
+<meta property="og:image" content="http://example.com/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210203094420837.png">
+<meta property="og:image" content="http://example.com/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210203095126978.png">
+<meta property="og:image" content="http://example.com/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210203095237022.png">
+<meta property="og:image" content="http://example.com/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210203103722876.png">
+<meta property="og:image" content="http://example.com/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210203104514650.png">
+<meta property="og:image" content="http://example.com/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210203104609504.png">
+<meta property="og:image" content="http://example.com/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210203104939154.png">
+<meta property="article:published_time" content="2021-02-05T04:12:59.000Z">
+<meta property="article:modified_time" content="2021-02-05T04:16:55.381Z">
 <meta property="article:author" content="John Doe">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="c:/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210121102747393.png">
+<meta name="twitter:image" content="http://example.com/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users/82407/AppData/Roaming/Typora/typora-user-images/image-20210121102747393.png">
   
     <link rel="alternative" href="/atom.xml" title="Hexo" type="application/atom+xml">
   
@@ -289,17 +289,32 @@
             <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            <article id="post-C++笔记" class="article article-type-post " itemscope itemprop="blogPost">
+            <article id="post-c-笔记" class="article article-type-post " itemscope itemprop="blogPost">
   <div class="article-inner">
+    
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      c++笔记
+    </h1>
+  
+
+        
+        <a href="/2021/02/05/c-%E7%AC%94%E8%AE%B0/" class="archive-article-date">
+  	<time datetime="2021-02-05T04:12:59.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2021-02-05</time>
+</a>
+        
+      </header>
     
     <div class="article-entry" itemprop="articleBody">
       
         <h4 id="rand函数"><a href="#rand函数" class="headerlink" title="rand函数"></a>rand函数</h4><p>函数原型：int rand(void);</p>
-<p>所需头文件：<cstdlib></p>
+<p>所需头文件：<cstdlib></cstdlib></p>
 <p>功能和返回值：求出并返回一个伪随机数</p>
 <h4 id="srand函数"><a href="#srand函数" class="headerlink" title="srand函数"></a>srand函数</h4><p>原型：void srand(unsigned int seed)</p>
 <p>参数：seed产生随机数的种子</p>
-<p>所需头文件：<cstdlib></p>
+<p>所需头文件：<cstdlib></cstdlib></p>
 <p>功能：为使rand()产生一序列伪随机整数而设置起始点。使用1作为seed参数，可以重新初化rand()</p>
 <h4 id="引用类型"><a href="#引用类型" class="headerlink" title="引用类型"></a>引用类型</h4><p>引用（&amp;）是标识符的别名</p>
 <p>定义一个引用时，必须同时对它进行初始化，使它指向一个已存在的对象</p>
@@ -309,23 +324,23 @@
 <h4 id="含有可变参数的函数"><a href="#含有可变参数的函数" class="headerlink" title="含有可变参数的函数"></a>含有可变参数的函数</h4><h5 id="c-标准中提供了两种主要的方法"><a href="#c-标准中提供了两种主要的方法" class="headerlink" title="c++标准中提供了两种主要的方法"></a>c++标准中提供了两种主要的方法</h5><p>如果所有的实参类型相同，可以传递一个名为initializer_list的标准库类型</p>
 <p>如果实参的类型不同，我们可以编写可变参数的模版（第九章）</p>
 <h5 id="initializer-list"><a href="#initializer-list" class="headerlink" title="initializer_list"></a>initializer_list</h5><p>initializer_list是一种标准库类型，用于表示某种特定类型的值的数组</p>
-<p>该类型定义在同名的头文件中（#include<initializer_list>)</p>
-<p><img src="C:\Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210121102747393.png" alt="image-20210121102747393"></p>
-<p><img src="C:\Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210121102833819.png" alt="image-20210121102833819"></p>
+<p>该类型定义在同名的头文件中（#include<initializer_list>)</initializer_list></p>
+<p><img src="/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210121102747393.png" alt="image-20210121102747393"></p>
+<p><img src="/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210121102833819.png" alt="image-20210121102833819"></p>
 <h4 id="内联函数"><a href="#内联函数" class="headerlink" title="内联函数"></a>内联函数</h4><p>内联函数声明时使用关键字inline</p>
-<p><img src="C:\Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210121141848048.png" alt="image-20210121141848048"></p>
-<p><img src="C:\Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210121142409575.png" alt="image-20210121142409575"></p>
+<p><img src="/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210121141848048.png" alt="image-20210121141848048"></p>
+<p><img src="/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210121142409575.png" alt="image-20210121142409575"></p>
 <h4 id="constexpr函数"><a href="#constexpr函数" class="headerlink" title="constexpr函数"></a>constexpr函数</h4><p>constexpr修饰的函数在其所有参数都是constexpr时一定返回常量表达式(constexpr)</p>
-<p><img src="C:\Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210121142744892.png" alt="image-20210121142744892"></p>
-<h4 id="带默认参数值的函数"><a href="#带默认参数值的函数" class="headerlink" title="带默认参数值的函数"></a>带默认参数值的函数</h4><p><img src="C:\Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210121142920346.png" alt="image-20210121142920346"></p>
+<p><img src="/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210121142744892.png" alt="image-20210121142744892"></p>
+<h4 id="带默认参数值的函数"><a href="#带默认参数值的函数" class="headerlink" title="带默认参数值的函数"></a>带默认参数值的函数</h4><p><img src="/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210121142920346.png" alt="image-20210121142920346"></p>
 <p>有默认参数的形参必须列在形参列表的最右，即默认参数值的右面不能有无默认值的参数</p>
 <p>调用时实参与形参的结合次序是从左向右</p>
-<p><img src="C:\Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210121143118110.png" alt="image-20210121143118110"></p>
+<p><img src="/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210121143118110.png" alt="image-20210121143118110"></p>
 <p>如果一个函数有原型声明，且原型声明在定义之前，则默认参数值应在函数原型声明中给出</p>
-<p>如果只有函数的定义，或函数定义之前，则默认参数值可以在函数定义中给出<img src="C:\Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210121143308908.png" alt="image-20210121143308908"></p>
+<p>如果只有函数的定义，或函数定义之前，则默认参数值可以在函数定义中给出<img src="/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210121143308908.png" alt="image-20210121143308908"></p>
 <h4 id="函数重载"><a href="#函数重载" class="headerlink" title="函数重载"></a>函数重载</h4><p>重载函数的形参必须不同：个数不同或者类型不同</p>
-<p>编译程序将根据实参和形参的类型及个数的最佳匹配来选择调用哪一个函数<img src="C:\Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210121144418687.png" alt="image-20210121144418687"></p>
-<h4 id="c-系统函数"><a href="#c-系统函数" class="headerlink" title="c++系统函数"></a>c++系统函数</h4><h5 id="数学-lt-math-h-gt"><a href="#数学-lt-math-h-gt" class="headerlink" title="数学&lt;math.h&gt;:"></a>数学<cmath>&lt;math.h&gt;:</h5><h6 id="1-三角函数"><a href="#1-三角函数" class="headerlink" title="1 三角函数"></a>1 三角函数</h6><p>double sin (double);<br>double cos (double);<br>double tan (double); </p>
+<p>编译程序将根据实参和形参的类型及个数的最佳匹配来选择调用哪一个函数<img src="/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210121144418687.png" alt="image-20210121144418687"></p>
+<h4 id="c-系统函数"><a href="#c-系统函数" class="headerlink" title="c++系统函数"></a>c++系统函数</h4><h5 id="数学-lt-math-h-gt"><a href="#数学-lt-math-h-gt" class="headerlink" title="数学&lt;math.h&gt;:"></a>数学<cmath>&lt;math.h&gt;:</cmath></h5><h6 id="1-三角函数"><a href="#1-三角函数" class="headerlink" title="1 三角函数"></a>1 三角函数</h6><p>double sin (double);<br>double cos (double);<br>double tan (double); </p>
 <h6 id="2-反三角函数"><a href="#2-反三角函数" class="headerlink" title="2 反三角函数"></a>2 反三角函数</h6><p>double asin (double); 结果介于[-PI/2, PI/2]<br>double acos (double); 结果介于[0, PI]<br>double atan (double); 反正切(主值), 结果介于[-PI/2, PI/2]<br>double atan2 (double, double); 反正切(整圆值), 结果介于[-PI/2, PI/2] </p>
 <h6 id="3-双曲三角函数"><a href="#3-双曲三角函数" class="headerlink" title="3 双曲三角函数"></a>3 双曲三角函数</h6><p>double sinh (double);<br>double cosh (double);<br>double tanh (double); </p>
 <h6 id="4-指数与对数"><a href="#4-指数与对数" class="headerlink" title="4 指数与对数"></a>4 指数与对数</h6><p>double exp (double x); e的x次幂<br>double pow (double x, double y); x的y次幂<br>double sqrt (double);<br>double log (double x); 以e为底的对数，即ln x<br>double log10 (double x);log10(x)  以10为底。</p>
@@ -335,75 +350,75 @@
 <h6 id="7-标准化浮点数"><a href="#7-标准化浮点数" class="headerlink" title="7 标准化浮点数"></a>7 标准化浮点数</h6><p>double frexp (double f, int *p); 标准化浮点数, f = x * 2^p, 已知f求x, p ( x介于[0.5, 1] )<br>double ldexp (double x, int p); 与frexp相反, 已知x, p求f </p>
 <h6 id="8-取整与取余"><a href="#8-取整与取余" class="headerlink" title="8 取整与取余"></a>8 取整与取余</h6><p>double modf (double, double*); 将参数的整数部分通过指针回传, 返回小数部分<br>double fmod (double, double); 返回两参数相除的余数 </p>
 <h6 id="9-平方根"><a href="#9-平方根" class="headerlink" title="9.平方根"></a>9.平方根</h6><p>double sqrt(double x);</p>
-<h5 id="字符-lt-ctype-h-gt"><a href="#字符-lt-ctype-h-gt" class="headerlink" title="字符&lt;ctype.h&gt;:"></a>字符<iostream>&lt;ctype.h&gt;:</h5><p>int isalpha(int c);c是否为字母<br>int isdigit(int c);c是否为数字<br>int tolower(int c);将c转换为小写字母<br>int toupper(int c);将c转换为大写字母</p>
-<h5 id="字符串-lt-string-h-gt"><a href="#字符串-lt-string-h-gt" class="headerlink" title="字符串&lt;string.h&gt;:"></a>字符串<iostream>&lt;string.h&gt;:</h5><p>char *strcpy(char *sl,char *s2);将字符串s2复制给s1，即覆盖<br>unsigned strlen(char *sr);求字符串str长度</p>
-<h5 id="内存操作-lt-memory-h-gt"><a href="#内存操作-lt-memory-h-gt" class="headerlink" title="内存操作&lt;memory.h&gt;:"></a>内存操作<iostream>&lt;memory.h&gt;:</h5><p>void *memcpy(void *d,void *s,int c);将s指向的内存区域的c个字节复制到d指向的区域</p>
-<h5 id="类型转换-lt-stdlib-h-gt"><a href="#类型转换-lt-stdlib-h-gt" class="headerlink" title="类型转换&lt;stdlib.h&gt;:"></a>类型转换<iostream>&lt;stdlib.h&gt;:</h5><p>int atoi(char *s);将字符串转化为整数<br>char *itoa(int v,char *s,int x);将整数v按x进制转成字符串s</p>
-<h5 id="时间-lt-time-h-gt"><a href="#时间-lt-time-h-gt" class="headerlink" title="时间&lt;time.h&gt;:"></a>时间<ctime>&lt;time.h&gt;:</h5><p>time_t time(time_t *timer);返回1970/1/1零点到目前的秒数</p>
-<h5 id="其他-lt-stdlib-h-gt"><a href="#其他-lt-stdlib-h-gt" class="headerlink" title="其他&lt;stdlib.h&gt;:"></a>其他<iostream>&lt;stdlib.h&gt;:</h5><p>srand(unsigned seed);设置随机数的种子<br>int rand();产生0-RAND_MAX的随机数<br>exit(int);终止正在执行的程序</p>
+<h5 id="字符-lt-ctype-h-gt"><a href="#字符-lt-ctype-h-gt" class="headerlink" title="字符&lt;ctype.h&gt;:"></a>字符<iostream>&lt;ctype.h&gt;:</iostream></h5><p>int isalpha(int c);c是否为字母<br>int isdigit(int c);c是否为数字<br>int tolower(int c);将c转换为小写字母<br>int toupper(int c);将c转换为大写字母</p>
+<h5 id="字符串-lt-string-h-gt"><a href="#字符串-lt-string-h-gt" class="headerlink" title="字符串&lt;string.h&gt;:"></a>字符串<iostream>&lt;string.h&gt;:</iostream></h5><p>char *strcpy(char *sl,char *s2);将字符串s2复制给s1，即覆盖<br>unsigned strlen(char *sr);求字符串str长度</p>
+<h5 id="内存操作-lt-memory-h-gt"><a href="#内存操作-lt-memory-h-gt" class="headerlink" title="内存操作&lt;memory.h&gt;:"></a>内存操作<iostream>&lt;memory.h&gt;:</iostream></h5><p>void *memcpy(void *d,void *s,int c);将s指向的内存区域的c个字节复制到d指向的区域</p>
+<h5 id="类型转换-lt-stdlib-h-gt"><a href="#类型转换-lt-stdlib-h-gt" class="headerlink" title="类型转换&lt;stdlib.h&gt;:"></a>类型转换<iostream>&lt;stdlib.h&gt;:</iostream></h5><p>int atoi(char *s);将字符串转化为整数<br>char *itoa(int v,char *s,int x);将整数v按x进制转成字符串s</p>
+<h5 id="时间-lt-time-h-gt"><a href="#时间-lt-time-h-gt" class="headerlink" title="时间&lt;time.h&gt;:"></a>时间<ctime>&lt;time.h&gt;:</ctime></h5><p>time_t time(time_t *timer);返回1970/1/1零点到目前的秒数</p>
+<h5 id="其他-lt-stdlib-h-gt"><a href="#其他-lt-stdlib-h-gt" class="headerlink" title="其他&lt;stdlib.h&gt;:"></a>其他<iostream>&lt;stdlib.h&gt;:</iostream></h5><p>srand(unsigned seed);设置随机数的种子<br>int rand();产生0-RAND_MAX的随机数<br>exit(int);终止正在执行的程序</p>
 <h4 id="面向对象程序设计"><a href="#面向对象程序设计" class="headerlink" title="面向对象程序设计"></a>面向对象程序设计</h4><p>基本特点：抽象封装继承多态</p>
-<p>抽象：对同一类对象的共同属性和行为进行概括，形成类<img src="C:\Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210122094053714.png" alt="image-20210122094053714"><img src="C:\Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210122094814458.png" alt="image-20210122094814458"></p>
-<p>封装：将抽象出的数据成员、代码成员相结合，将它们视为一个整体。<img src="C:\Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210122094913807.png" alt="image-20210122094913807"><img src="C:\Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210122101140029.png" alt="image-20210122101140029"></p>
+<p>抽象：对同一类对象的共同属性和行为进行概括，形成类<img src="/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210122094053714.png" alt="image-20210122094053714"><img src="/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210122094814458.png" alt="image-20210122094814458"></p>
+<p>封装：将抽象出的数据成员、代码成员相结合，将它们视为一个整体。<img src="/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210122094913807.png" alt="image-20210122094913807"><img src="/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210122101140029.png" alt="image-20210122101140029"></p>
 <p>继承：在已有类的基础上，进行扩展形成新的类</p>
 <p>多态：同一名称，不同的功能实现方式（目的：达到行为标识统一，减少程序中标识符的个数）</p>
-<h4 id="定义类的语法形式"><a href="#定义类的语法形式" class="headerlink" title="定义类的语法形式"></a>定义类的语法形式</h4><p><img src="C:\Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210122101744698.png" alt="image-20210122101744698"><img src="C:\Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210122101936044.png" alt="image-20210122101936044"></p>
-<p><img src="C:\Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210122102043171.png" alt="image-20210122102043171"><img src="C:\Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210122101945521.png" alt="image-20210122101945521"></p>
+<h4 id="定义类的语法形式"><a href="#定义类的语法形式" class="headerlink" title="定义类的语法形式"></a>定义类的语法形式</h4><p><img src="/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210122101744698.png" alt="image-20210122101744698"><img src="/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210122101936044.png" alt="image-20210122101936044"></p>
+<p><img src="/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210122102043171.png" alt="image-20210122102043171"><img src="/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210122101945521.png" alt="image-20210122101945521"></p>
 <h4 id="定义类的对象"><a href="#定义类的对象" class="headerlink" title="定义类的对象"></a>定义类的对象</h4><p>类名 对象名；</p>
-<h4 id="定义类的成员函数"><a href="#定义类的成员函数" class="headerlink" title="定义类的成员函数"></a>定义类的成员函数</h4><p><img src="C:\Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210122102249593.png" alt="image-20210122102249593"><img src="C:\Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210122102714455.png" alt="image-20210122102714455"></p>
-<p><img src="C:\Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210122103029580.png" alt="image-20210122103029580"></p>
-<p><img src="C:\Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210122103037466.png" alt="image-20210122103037466"></p>
-<p><img src="C:\Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210122103130922.png" alt="image-20210122103130922"></p>
-<h4 id="构造函数"><a href="#构造函数" class="headerlink" title="构造函数"></a>构造函数</h4><p>类中的特殊函数，用于描述初始化算法<img src="C:\Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210122103506425.png" alt="image-20210122103506425"></p>
-<p><img src="C:\Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210122103519170.png" alt="image-20210122103519170"><img src="C:\Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210122103600302.png" alt="image-20210122103600302"><img src="C:\Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210122104104228.png" alt="image-20210122104104228"></p>
-<p><img src="C:\Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210122104132243.png" alt="image-20210122104132243"></p>
-<p><img src="C:\Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210122104212556.png" alt="image-20210122104212556"></p>
-<p><img src="C:\Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210122110200620.png" alt="image-20210122110200620"></p>
-<h5 id="举例"><a href="#举例" class="headerlink" title="举例"></a>举例</h5><p><img src="C:\Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210122110301407.png" alt="image-20210122110301407"></p>
-<p><img src="C:\Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210122110319126.png" alt="image-20210122110319126"></p>
-<h5 id="一般都要为类定义一个无参的构造函数"><a href="#一般都要为类定义一个无参的构造函数" class="headerlink" title="一般都要为类定义一个无参的构造函数"></a>一般都要为类定义一个无参的构造函数</h5><h4 id="委托构造函数"><a href="#委托构造函数" class="headerlink" title="委托构造函数"></a>委托构造函数</h4><p><img src="C:\Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210122155754050.png" alt="image-20210122155754050"></p>
-<p><img src="C:\Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210122155830478.png" alt="image-20210122155830478"></p>
-<h4 id="复制构造函数"><a href="#复制构造函数" class="headerlink" title="复制构造函数"></a>复制构造函数</h4><p> 复制构造函数是一种特殊的构造函数，其形参为本类的对象引用，作用是用一个已存在的对象去初始化同类型的新对象。<img src="C:\Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210122160813677.png" alt="image-20210122160813677"></p>
-<p><img src="C:\Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210122162558366.png" alt="image-20210122162558366"></p>
-<p><img src="C:\Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210122163044392.png" alt="image-20210122163044392"></p>
-<p><img src="C:\Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210122163503829.png" alt="image-20210122163503829"></p>
+<h4 id="定义类的成员函数"><a href="#定义类的成员函数" class="headerlink" title="定义类的成员函数"></a>定义类的成员函数</h4><p><img src="/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210122102249593.png" alt="image-20210122102249593"><img src="/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210122102714455.png" alt="image-20210122102714455"></p>
+<p><img src="/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210122103029580.png" alt="image-20210122103029580"></p>
+<p><img src="/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210122103037466.png" alt="image-20210122103037466"></p>
+<p><img src="/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210122103130922.png" alt="image-20210122103130922"></p>
+<h4 id="构造函数"><a href="#构造函数" class="headerlink" title="构造函数"></a>构造函数</h4><p>类中的特殊函数，用于描述初始化算法<img src="/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210122103506425.png" alt="image-20210122103506425"></p>
+<p><img src="/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210122103519170.png" alt="image-20210122103519170"><img src="/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210122103600302.png" alt="image-20210122103600302"><img src="/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210122104104228.png" alt="image-20210122104104228"></p>
+<p><img src="/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210122104132243.png" alt="image-20210122104132243"></p>
+<p><img src="/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210122104212556.png" alt="image-20210122104212556"></p>
+<p><img src="/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210122110200620.png" alt="image-20210122110200620"></p>
+<h5 id="举例"><a href="#举例" class="headerlink" title="举例"></a>举例</h5><p><img src="/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210122110301407.png" alt="image-20210122110301407"></p>
+<p><img src="/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210122110319126.png" alt="image-20210122110319126"></p>
+<h5 id="一般都要为类定义一个无参的构造函数"><a href="#一般都要为类定义一个无参的构造函数" class="headerlink" title="一般都要为类定义一个无参的构造函数"></a>一般都要为类定义一个无参的构造函数</h5><h4 id="委托构造函数"><a href="#委托构造函数" class="headerlink" title="委托构造函数"></a>委托构造函数</h4><p><img src="/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210122155754050.png" alt="image-20210122155754050"></p>
+<p><img src="/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210122155830478.png" alt="image-20210122155830478"></p>
+<h4 id="复制构造函数"><a href="#复制构造函数" class="headerlink" title="复制构造函数"></a>复制构造函数</h4><p> 复制构造函数是一种特殊的构造函数，其形参为本类的对象引用，作用是用一个已存在的对象去初始化同类型的新对象。<img src="/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210122160813677.png" alt="image-20210122160813677"></p>
+<p><img src="/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210122162558366.png" alt="image-20210122162558366"></p>
+<p><img src="/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210122163044392.png" alt="image-20210122163044392"></p>
+<p><img src="/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210122163503829.png" alt="image-20210122163503829"></p>
 <h4 id="析构函数"><a href="#析构函数" class="headerlink" title="析构函数"></a>析构函数</h4><p>析构函数完成对象被删除前的一些清理工作</p>
 <p>在对象的生存期结束的时刻系统自动调用析构函数</p>
 <p>如果程序中未声明析构函数，编译器将自动产生一个默认的析构函数，其函数体为空</p>
 <p>析构函数的原型  ~类名();</p>
 <p>析构函数没有参数，没有返回类型</p>
 <h4 id="类的组合"><a href="#类的组合" class="headerlink" title="类的组合"></a>类的组合</h4><p>类中的成员是另一个类的对象。可以在已有抽象的基础上实现更复杂的抽象。</p>
-<p><img src="C:\Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210123092545290.png" alt="image-20210123092545290"></p>
-<p><img src="C:\Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210123092632967.png" alt="image-20210123092632967"></p>
+<p><img src="/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210123092545290.png" alt="image-20210123092545290"></p>
+<p><img src="/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210123092632967.png" alt="image-20210123092632967"></p>
 <h4 id="前向引用声明"><a href="#前向引用声明" class="headerlink" title="前向引用声明"></a>前向引用声明</h4><p>类应该先声明，后使用</p>
 <p>如果需要在某个类的声明之前，引用该类，则应进行前向引用声明。</p>
 <p>前项引用声明只为程序引入一个标识符，但具体声明在其他地方。</p>
-<p><img src="C:\Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210123100323763.png" alt="image-20210123100323763"></p>
-<p><img src="C:\Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210123100349157.png" alt="image-20210123100349157"></p>
-<p><img src="C:\Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210123100425828.png" alt="image-20210123100425828">无法解决↑↑↑↑</p>
+<p><img src="/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210123100323763.png" alt="image-20210123100323763"></p>
+<p><img src="/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210123100349157.png" alt="image-20210123100349157"></p>
+<p><img src="/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210123100425828.png" alt="image-20210123100425828">无法解决↑↑↑↑</p>
 <h4 id="UML"><a href="#UML" class="headerlink" title="UML"></a>UML</h4><p>事物（Things） 关系（Relationships）  图（Diagrams）</p>
-<p><img src="C:\Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210123101311590.png" alt="image-20210123101311590"><img src="C:\Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210123101422769.png" alt="image-20210123101422769"></p>
-<p><img src="C:\Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210123101346440.png" alt="image-20210123101346440"><img src="C:\Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210123101429328.png" alt="image-20210123101429328"></p>
-<p><img src="C:\Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210123101440429.png" alt="image-20210123101440429"></p>
-<p><img src="C:\Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210123104438415.png" alt="image-20210123104438415"></p>
-<p><img src="C:\Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210123104616035.png" alt="image-20210123104616035"></p>
+<p><img src="/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210123101311590.png" alt="image-20210123101311590"><img src="/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210123101422769.png" alt="image-20210123101422769"></p>
+<p><img src="/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210123101346440.png" alt="image-20210123101346440"><img src="/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210123101429328.png" alt="image-20210123101429328"></p>
+<p><img src="/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210123101440429.png" alt="image-20210123101440429"></p>
+<p><img src="/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210123104438415.png" alt="image-20210123104438415"></p>
+<p><img src="/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210123104616035.png" alt="image-20210123104616035"></p>
 <h4 id="结构体"><a href="#结构体" class="headerlink" title="结构体"></a>结构体</h4><p>结构体是一种特殊形态的类</p>
-<p>与类的唯一区别：类的缺省访问权限是private（定义在最开头不写访问控制属性默认是私有的），结构体的缺省访问权限是public（定义在开头不写访问控制属性默认是公有的）<img src="C:\Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210123105511167.png" alt="image-20210123105511167"></p>
-<h4 id="联合体"><a href="#联合体" class="headerlink" title="联合体"></a>联合体</h4><p><img src="C:\Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210123105705057.png" alt="image-20210123105705057"></p>
+<p>与类的唯一区别：类的缺省访问权限是private（定义在最开头不写访问控制属性默认是私有的），结构体的缺省访问权限是public（定义在开头不写访问控制属性默认是公有的）<img src="/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210123105511167.png" alt="image-20210123105511167"></p>
+<h4 id="联合体"><a href="#联合体" class="headerlink" title="联合体"></a>联合体</h4><p><img src="/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210123105705057.png" alt="image-20210123105705057"></p>
 <p>成员共用同一组内存单元</p>
 <p>任何两个成员不会同时有效</p>
 <h4 id="枚举类"><a href="#枚举类" class="headerlink" title="枚举类"></a>枚举类</h4><p>enum class 枚举类型名:底层类型｛枚举值列表｝</p>
-<p><img src="C:\Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210123150859777.png" alt="image-20210123150859777"></p>
+<p><img src="/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210123150859777.png" alt="image-20210123150859777"></p>
 <p>强作用域；转换限制；可以指定底层类型</p>
-<p><img src="C:\Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210123151018273.png" alt="image-20210123151018273"></p>
+<p><img src="/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210123151018273.png" alt="image-20210123151018273"></p>
 <h4 id="作用域"><a href="#作用域" class="headerlink" title="作用域"></a>作用域</h4><p>分类：函数原型作用域、局部作用域（块作用域）、类作用域、文件作用域、命名空间作用域</p>
-<h5 id="函数原型作用域"><a href="#函数原型作用域" class="headerlink" title="函数原型作用域"></a>函数原型作用域</h5><p>函数原型中的参数，其作用域始于“（”，结束于“）”<img src="C:\Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210124103911302.png" alt="image-20210124103911302"></p>
+<h5 id="函数原型作用域"><a href="#函数原型作用域" class="headerlink" title="函数原型作用域"></a>函数原型作用域</h5><p>函数原型中的参数，其作用域始于“（”，结束于“）”<img src="/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210124103911302.png" alt="image-20210124103911302"></p>
 <h5 id="局部作用域"><a href="#局部作用域" class="headerlink" title="局部作用域"></a>局部作用域</h5><p>函数的形参、在块中声明的标识符；</p>
 <p>作用域自声明处起，限于块中。</p>
-<p><img src="C:\Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210124104446858.png" alt="image-20210124104446858"></p>
+<p><img src="/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210124104446858.png" alt="image-20210124104446858"></p>
 <h5 id="文件作用域"><a href="#文件作用域" class="headerlink" title="文件作用域"></a>文件作用域</h5><p>不在前述的各个作用域中出现的声明，就具有文件作用域</p>
 <p>其作用域开始于声明点，结束于文件尾</p>
-<p><img src="C:\Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210124105417944.png" alt="image-20210124105417944"></p>
-<p><img src="C:\Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210124105446150.png" alt="image-20210124105446150"></p>
+<p><img src="/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210124105417944.png" alt="image-20210124105417944"></p>
+<p><img src="/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210124105446150.png" alt="image-20210124105446150"></p>
 <h4 id="静态生存期"><a href="#静态生存期" class="headerlink" title="静态生存期"></a>静态生存期</h4><p>这种生存期与程序的运行期相同。</p>
 <p>在文件作用域中声明的对象具有这种生存期</p>
 <p>在函数内部声明静态生存期对象，要冠以关键字static</p>
@@ -414,9 +429,9 @@
 <p>必须在类外定义和初始化，用 ::  来指明所属的类</p>
 <h4 id="类的静态函数成员"><a href="#类的静态函数成员" class="headerlink" title="类的静态函数成员"></a>类的静态函数成员</h4><p>静态函数成员主要用于处理该类的静态数据</p>
 <p>静态函数成员如果访问非静态成员，要通过对象来访问</p>
-<p><img src="C:\Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210124144844799.png" alt="image-20210124144844799"></p>
-<p><img src="C:\Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210124144852803.png" alt="image-20210124144852803"></p>
-<h4 id="类的友元"><a href="#类的友元" class="headerlink" title="类的友元"></a>类的友元</h4><p><img src="C:\Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210124150346287.png" alt="image-20210124150346287"></p>
+<p><img src="/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210124144844799.png" alt="image-20210124144844799"></p>
+<p><img src="/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210124144852803.png" alt="image-20210124144852803"></p>
+<h4 id="类的友元"><a href="#类的友元" class="headerlink" title="类的友元"></a>类的友元</h4><p><img src="/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210124150346287.png" alt="image-20210124150346287"></p>
 <p>友元函数是在类声明中由关键字friend修饰说明的非成员函数</p>
 <p>在它的函数体中能够通过对象名访问private和protected成员</p>
 <p>作用：增加灵活性，使程序员可以在封装和快速性方面做合适选择</p>
@@ -424,55 +439,55 @@
 <h5 id="友元类"><a href="#友元类" class="headerlink" title="友元类"></a>友元类</h5><p>若一个类为另一个类的友元，则此类的所有成员都能访问对方类的私有成员</p>
 <p>声明语法：将友元类名在另一个类中使用friend修饰说明</p>
 <p>注意：类的友元关系是单向的：声明B类是A类的友元不等于A类是B类的友元</p>
-<h4 id="共享数据的保护"><a href="#共享数据的保护" class="headerlink" title="共享数据的保护"></a>共享数据的保护</h4><p><img src="C:\Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210124160059582.png" alt="image-20210124160059582"></p>
-<p><img src="C:\Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210124160618479.png" alt="image-20210124160618479"></p>
-<p><img src="C:\Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210124160641223.png" alt="image-20210124160641223"></p>
+<h4 id="共享数据的保护"><a href="#共享数据的保护" class="headerlink" title="共享数据的保护"></a>共享数据的保护</h4><p><img src="/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210124160059582.png" alt="image-20210124160059582"></p>
+<p><img src="/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210124160618479.png" alt="image-20210124160618479"></p>
+<p><img src="/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210124160641223.png" alt="image-20210124160641223"></p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">11111111111111111111</span><br></pre></td></tr></table></figure>
 <h4 id="多文件"><a href="#多文件" class="headerlink" title="多文件"></a>多文件</h4><p>双引号是自己定义的头文件 尖括号是系统目录给的头文件</p>
 <h5 id="外部变量"><a href="#外部变量" class="headerlink" title="外部变量"></a>外部变量</h5><p>除了在定义它的源文件中可以使用外，还能被其他文件使用</p>
 <p>文件作用域中定义的变量，默认情况下都是外部变量</p>
 <p>在其他文件中如果需要使用，需要用extern关键字声明</p>
 <h5 id="外部函数"><a href="#外部函数" class="headerlink" title="外部函数"></a>外部函数</h5><p>在所有类之外声明的函数（也就是非成员函数），都是具有文件作用域的，这样的函数都可以在不同编译单元中被调用，只要在调用之前进行引用性声明（即声明函数原型）即可</p>
-<p><img src="C:\Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210124165951237.png" alt="image-20210124165951237"></p>
-<h5 id="编译预处理"><a href="#编译预处理" class="headerlink" title="编译预处理"></a>编译预处理</h5><p><img src="C:\Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210124170206202.png" alt="image-20210124170206202"></p>
-<p><img src="C:\Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210124170927178.png" alt="image-20210124170927178"></p>
-<p><img src="C:\Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210124171000859.png" alt="image-20210124171000859"></p>
-<p><img src="C:\Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210124171042336.png" alt="image-20210124171042336"></p>
-<p><img src="C:\Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210124171153792.png" alt="image-20210124171153792"></p>
-<h4 id="数组的定义"><a href="#数组的定义" class="headerlink" title="数组的定义"></a>数组的定义</h4><p><img src="C:\Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210127092321233.png" alt="image-20210127092321233"></p>
-<h5 id="一维数组的存储"><a href="#一维数组的存储" class="headerlink" title="一维数组的存储"></a>一维数组的存储</h5><p><img src="C:\Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210127092911223.png" alt="image-20210127092911223"></p>
-<p><img src="C:\Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210127093158198.png" alt="image-20210127093158198"></p>
-<h5 id="二维数组的存储"><a href="#二维数组的存储" class="headerlink" title="二维数组的存储"></a>二维数组的存储</h5><p><img src="C:\Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210127093215836.png" alt="image-20210127093215836"></p>
-<p><img src="C:\Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210127093225096.png" alt="image-20210127093225096"></p>
-<p><img src="C:\Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210127093436814.png" alt="image-20210127093436814"></p>
+<p><img src="/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210124165951237.png" alt="image-20210124165951237"></p>
+<h5 id="编译预处理"><a href="#编译预处理" class="headerlink" title="编译预处理"></a>编译预处理</h5><p><img src="/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210124170206202.png" alt="image-20210124170206202"></p>
+<p><img src="/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210124170927178.png" alt="image-20210124170927178"></p>
+<p><img src="/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210124171000859.png" alt="image-20210124171000859"></p>
+<p><img src="/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210124171042336.png" alt="image-20210124171042336"></p>
+<p><img src="/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210124171153792.png" alt="image-20210124171153792"></p>
+<h4 id="数组的定义"><a href="#数组的定义" class="headerlink" title="数组的定义"></a>数组的定义</h4><p><img src="/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210127092321233.png" alt="image-20210127092321233"></p>
+<h5 id="一维数组的存储"><a href="#一维数组的存储" class="headerlink" title="一维数组的存储"></a>一维数组的存储</h5><p><img src="/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210127092911223.png" alt="image-20210127092911223"></p>
+<p><img src="/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210127093158198.png" alt="image-20210127093158198"></p>
+<h5 id="二维数组的存储"><a href="#二维数组的存储" class="headerlink" title="二维数组的存储"></a>二维数组的存储</h5><p><img src="/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210127093215836.png" alt="image-20210127093215836"></p>
+<p><img src="/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210127093225096.png" alt="image-20210127093225096"></p>
+<p><img src="/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210127093436814.png" alt="image-20210127093436814"></p>
 <h4 id="对象数组"><a href="#对象数组" class="headerlink" title="对象数组"></a>对象数组</h4><p>定义对象数组</p>
 <p>类名   数组名[元素个数];</p>
 <p>访问对象数组元素</p>
 <p>通过下标访问：数组名[下标].成员名</p>
-<p><img src="C:\Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210127101035012.png" alt="image-20210127101035012"></p>
-<p><img src="C:\Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210127105825117.png" alt="image-20210127105825117"></p>
-<h4 id="基于范围的for循环"><a href="#基于范围的for循环" class="headerlink" title="基于范围的for循环"></a>基于范围的for循环</h4><p><img src="C:\Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210127164900766.png" alt="image-20210127164900766"></p>
+<p><img src="/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210127101035012.png" alt="image-20210127101035012"></p>
+<p><img src="/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210127105825117.png" alt="image-20210127105825117"></p>
+<h4 id="基于范围的for循环"><a href="#基于范围的for循环" class="headerlink" title="基于范围的for循环"></a>基于范围的for循环</h4><p><img src="/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210127164900766.png" alt="image-20210127164900766"></p>
 <h4 id="指针"><a href="#指针" class="headerlink" title="指针"></a>指针</h4><p>内存空间的访问方式：通过变量名访问、通过地址访问</p>
 <p>指针的概念：内存地址，用于间接访问内存单元</p>
 <p>指针变量：用于存放地址的变量</p>
-<p><img src="C:\Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210128101008242.png" alt="image-20210128101008242"></p>
-<p><img src="C:\Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210128101805346.png" alt="image-20210128101805346"></p>
+<p><img src="/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210128101008242.png" alt="image-20210128101008242"></p>
+<p><img src="/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210128101805346.png" alt="image-20210128101805346"></p>
 <p>↑指针运算 把3赋给2000地址所指向的单元里</p>
-<p> <img src="C:\Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210128102549276.png" alt="image-20210128102549276"></p>
+<p> <img src="/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210128102549276.png" alt="image-20210128102549276"></p>
 <h5 id="指针变量的初始化"><a href="#指针变量的初始化" class="headerlink" title="指针变量的初始化"></a>指针变量的初始化</h5><p>语法形式</p>
 <p>存储类型 数据类型 *指针名=初始地址；</p>
-<p><img src="C:\Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210128112456802.png" alt="image-20210128112456802"></p>
-<h5 id="指针变量的赋值运算"><a href="#指针变量的赋值运算" class="headerlink" title="指针变量的赋值运算"></a>指针变量的赋值运算</h5><p><img src="C:\Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210128112554221.png" alt="image-20210128112554221"></p>
-<p><img src="C:\Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210128150803364.png" alt="image-20210128150803364"></p>
-<p><img src="C:\Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210128152231128.png" alt="image-20210128152231128"></p>
-<h5 id="指针类型的算术运算"><a href="#指针类型的算术运算" class="headerlink" title="指针类型的算术运算"></a>指针类型的算术运算</h5><p><img src="C:\Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210128152427162.png" alt="image-20210128152427162"></p>
-<p><img src="C:\Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210128161204132.png" alt="image-20210128161204132"></p>
-<p><img src="C:\Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210128161231631.png" alt="image-20210128161231631"></p>
-<h5 id="指针处理数组元素"><a href="#指针处理数组元素" class="headerlink" title="指针处理数组元素"></a>指针处理数组元素</h5><p><img src="C:\Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210129091855502.png" alt="image-20210129091855502"></p>
+<p><img src="/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210128112456802.png" alt="image-20210128112456802"></p>
+<h5 id="指针变量的赋值运算"><a href="#指针变量的赋值运算" class="headerlink" title="指针变量的赋值运算"></a>指针变量的赋值运算</h5><p><img src="/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210128112554221.png" alt="image-20210128112554221"></p>
+<p><img src="/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210128150803364.png" alt="image-20210128150803364"></p>
+<p><img src="/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210128152231128.png" alt="image-20210128152231128"></p>
+<h5 id="指针类型的算术运算"><a href="#指针类型的算术运算" class="headerlink" title="指针类型的算术运算"></a>指针类型的算术运算</h5><p><img src="/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210128152427162.png" alt="image-20210128152427162"></p>
+<p><img src="/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210128161204132.png" alt="image-20210128161204132"></p>
+<p><img src="/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210128161231631.png" alt="image-20210128161231631"></p>
+<h5 id="指针处理数组元素"><a href="#指针处理数组元素" class="headerlink" title="指针处理数组元素"></a>指针处理数组元素</h5><p><img src="/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210129091855502.png" alt="image-20210129091855502"></p>
 <h5 id="指针数组"><a href="#指针数组" class="headerlink" title="指针数组"></a>指针数组</h5><p>数组的元素是指针类型</p>
 <p>例：Point *pa[2];    由pa[0]、pa[1]两个指针组成</p>
-<p><img src="C:\Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210129092410519.png" alt="image-20210129092410519"></p>
-<p> <img src="C:\Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210129093022316.png" alt="image-20210129093022316"></p>
+<p><img src="/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210129092410519.png" alt="image-20210129092410519"></p>
+<p> <img src="/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210129093022316.png" alt="image-20210129093022316"></p>
 <h5 id="以指针作函数参数"><a href="#以指针作函数参数" class="headerlink" title="以指针作函数参数"></a>以指针作函数参数</h5><h5 id="指针类型的函数"><a href="#指针类型的函数" class="headerlink" title="指针类型的函数"></a>指针类型的函数</h5><p>若函数的返回值是指针，该函数就是指针类型的函数</p>
 <p>指针类型函数定义的语法形式：</p>
 <p>存储类型 数据类型 *函数名()</p>
@@ -480,53 +495,53 @@
 <p>//函数体语句</p>
 <p>}</p>
 <p>错误的例子：在子函数中定义局部变量后将其地址返回给主函数，就是非法地址</p>
-<p><img src="C:\Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210130100454233.png" alt="image-20210130100454233"></p>
+<p><img src="/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210130100454233.png" alt="image-20210130100454233"></p>
 <p>正确的例子：</p>
-<p><img src="C:\Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210130101016225.png" alt="image-20210130101016225"></p>
-<p><img src="C:\Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210130101122034.png" alt="image-20210130101122034"></p>
-<p><img src="C:\Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210130101318527.png" alt="image-20210130101318527"></p>
-<h5 id="指向函数的指针"><a href="#指向函数的指针" class="headerlink" title="指向函数的指针"></a>指向函数的指针</h5><p><img src="C:\Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210130101541122.png" alt="image-20210130101541122"></p>
-<p><img src="C:\Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210130101850506.png" alt="image-20210130101850506"></p>
-<p><img src="C:\Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210130102332056.png" alt="image-20210130102332056"><img src="C:\Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210130102543547.png" alt="image-20210130102543547"></p>
+<p><img src="/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210130101016225.png" alt="image-20210130101016225"></p>
+<p><img src="/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210130101122034.png" alt="image-20210130101122034"></p>
+<p><img src="/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210130101318527.png" alt="image-20210130101318527"></p>
+<h5 id="指向函数的指针"><a href="#指向函数的指针" class="headerlink" title="指向函数的指针"></a>指向函数的指针</h5><p><img src="/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210130101541122.png" alt="image-20210130101541122"></p>
+<p><img src="/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210130101850506.png" alt="image-20210130101850506"></p>
+<p><img src="/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210130102332056.png" alt="image-20210130102332056"><img src="/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210130102543547.png" alt="image-20210130102543547"></p>
 <h5 id="对象指针"><a href="#对象指针" class="headerlink" title="对象指针"></a>对象指针</h5><p> 类名 *对象指针名;</p>
 <p>例： Point a(5,10);  Point *ptr; ptr=&a;</p>
 <h6 id="通过指针访问对象成员"><a href="#通过指针访问对象成员" class="headerlink" title="通过指针访问对象成员"></a>通过指针访问对象成员</h6><p>对象指针名-&gt;成员名</p>
 <p>例：ptr-&gt;getx()相当于(*ptr).getx();</p>
 <h5 id="this指针"><a href="#this指针" class="headerlink" title="this指针"></a>this指针</h5><p>隐含于类的每一个非静态成员函数中。</p>
 <p>指出成员函数所操作的对象。</p>
-<p><img src="C:\Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210130150227653.png" alt="image-20210130150227653"></p>
-<p><img src="C:\Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210130151016588.png" alt="image-20210130151016588"></p>
-<h5 id="动态分配与释放内存"><a href="#动态分配与释放内存" class="headerlink" title="动态分配与释放内存"></a>动态分配与释放内存</h5><p><img src="C:\Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210130151501812.png" alt="image-20210130151501812"></p>
-<p><img src="C:\Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210130151525653.png" alt="image-20210130151525653"></p>
-<p><img src="C:\Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210130151559503.png" alt="image-20210130151559503"></p>
-<p><img src="C:\Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210130151604365.png" alt="image-20210130151604365"></p>
-<h5 id="申请和释放动态数组"><a href="#申请和释放动态数组" class="headerlink" title="申请和释放动态数组"></a>申请和释放动态数组</h5><p><img src="C:\Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210130151858607.png" alt="image-20210130151858607"></p>
-<p><img src="C:\Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210130152132088.png" alt="image-20210130152132088"></p>
-<p><img src="C:\Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210130152217180.png" alt="image-20210130152217180"></p>
-<p><img src="C:\Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210130152306861.png" alt="image-20210130152306861"></p>
-<p><img src="C:\Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210130152529567.png" alt="image-20210130152529567"></p>
-<h6 id="将动态数组封装成类"><a href="#将动态数组封装成类" class="headerlink" title="将动态数组封装成类"></a>将动态数组封装成类</h6><p><img src="C:\Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210130153140029.png" alt="image-20210130153140029"></p>
+<p><img src="/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210130150227653.png" alt="image-20210130150227653"></p>
+<p><img src="/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210130151016588.png" alt="image-20210130151016588"></p>
+<h5 id="动态分配与释放内存"><a href="#动态分配与释放内存" class="headerlink" title="动态分配与释放内存"></a>动态分配与释放内存</h5><p><img src="/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210130151501812.png" alt="image-20210130151501812"></p>
+<p><img src="/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210130151525653.png" alt="image-20210130151525653"></p>
+<p><img src="/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210130151559503.png" alt="image-20210130151559503"></p>
+<p><img src="/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210130151604365.png" alt="image-20210130151604365"></p>
+<h5 id="申请和释放动态数组"><a href="#申请和释放动态数组" class="headerlink" title="申请和释放动态数组"></a>申请和释放动态数组</h5><p><img src="/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210130151858607.png" alt="image-20210130151858607"></p>
+<p><img src="/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210130152132088.png" alt="image-20210130152132088"></p>
+<p><img src="/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210130152217180.png" alt="image-20210130152217180"></p>
+<p><img src="/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210130152306861.png" alt="image-20210130152306861"></p>
+<p><img src="/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210130152529567.png" alt="image-20210130152529567"></p>
+<h6 id="将动态数组封装成类"><a href="#将动态数组封装成类" class="headerlink" title="将动态数组封装成类"></a>将动态数组封装成类</h6><p><img src="/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210130153140029.png" alt="image-20210130153140029"></p>
 <p>​    </p>
-<p><img src="C:\Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210130153307196.png" alt="image-20210130153307196"></p>
-<h5 id="智能指针"><a href="#智能指针" class="headerlink" title="智能指针"></a>智能指针</h5><p><img src="C:\Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210130154004087.png" alt="image-20210130154004087"></p>
-<h4 id="vector对象"><a href="#vector对象" class="headerlink" title="vector对象"></a>vector对象</h4><p><img src="C:\Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210130155943960.png" alt="image-20210130155943960"></p>
+<p><img src="/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210130153307196.png" alt="image-20210130153307196"></p>
+<h5 id="智能指针"><a href="#智能指针" class="headerlink" title="智能指针"></a>智能指针</h5><p><img src="/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210130154004087.png" alt="image-20210130154004087"></p>
+<h4 id="vector对象"><a href="#vector对象" class="headerlink" title="vector对象"></a>vector对象</h4><p><img src="/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210130155943960.png" alt="image-20210130155943960"></p>
 <p>vector可以容纳任何类型的数组</p>
-<p><img src="C:\Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210130160017338.png" alt="image-20210130160017338"></p>
+<p><img src="/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210130160017338.png" alt="image-20210130160017338"></p>
 <p>例</p>
-<p><img src="C:\Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210130160052435.png" alt="image-20210130160052435"></p>
-<p><img src="C:\Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210130161623461.png" alt="image-20210130161623461"></p>
+<p><img src="/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210130160052435.png" alt="image-20210130160052435"></p>
+<p><img src="/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210130161623461.png" alt="image-20210130161623461"></p>
 <h4 id="浅层复制与深层复制"><a href="#浅层复制与深层复制" class="headerlink" title="浅层复制与深层复制"></a>浅层复制与深层复制</h4><p>浅层复制：实现对象间数据元素的一一对应复制</p>
 <p>深层复制：当被复制的对象数据成员是指针类型时，不是复制该指针成员本身，而是将指针所指对象进行复制</p>
-<p><img src="C:\Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210201091204078.png" alt="image-20210201091204078"></p>
-<h4 id="移动构造"><a href="#移动构造" class="headerlink" title="移动构造"></a>移动构造</h4><p><img src="C:\Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210201091348531.png" alt="image-20210201091348531"></p>
-<p><img src="C:\Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210201094142292.png" alt="image-20210201094142292"></p>
-<p><img src="C:\Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210201094641641.png" alt="image-20210201094641641"></p>
-<h4 id="C风格字符串"><a href="#C风格字符串" class="headerlink" title="C风格字符串"></a>C风格字符串</h4><p><img src="C:\Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210202091019085.png" alt="image-20210202091019085"></p>
-<p><img src="C:\Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210202091035934.png" alt="image-20210202091035934"></p>
-<p><img src="C:\Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210202091818637.png" alt="image-20210202091818637"></p>
-<h4 id="string类"><a href="#string类" class="headerlink" title="string类"></a>string类</h4><p><img src="C:\Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210202093740043.png" alt="image-20210202093740043"></p>
-<p><img src="C:\Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210202093805666.png" alt="image-20210202093805666"></p>
-<h5 id="getline函数"><a href="#getline函数" class="headerlink" title="getline函数"></a>getline函数</h5><p><img src="C:\Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210202094057542.png" alt="image-20210202094057542"></p>
+<p><img src="/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210201091204078.png" alt="image-20210201091204078"></p>
+<h4 id="移动构造"><a href="#移动构造" class="headerlink" title="移动构造"></a>移动构造</h4><p><img src="/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210201091348531.png" alt="image-20210201091348531"></p>
+<p><img src="/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210201094142292.png" alt="image-20210201094142292"></p>
+<p><img src="/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210201094641641.png" alt="image-20210201094641641"></p>
+<h4 id="C风格字符串"><a href="#C风格字符串" class="headerlink" title="C风格字符串"></a>C风格字符串</h4><p><img src="/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210202091019085.png" alt="image-20210202091019085"></p>
+<p><img src="/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210202091035934.png" alt="image-20210202091035934"></p>
+<p><img src="/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210202091818637.png" alt="image-20210202091818637"></p>
+<h4 id="string类"><a href="#string类" class="headerlink" title="string类"></a>string类</h4><p><img src="/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210202093740043.png" alt="image-20210202093740043"></p>
+<p><img src="/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210202093805666.png" alt="image-20210202093805666"></p>
+<h5 id="getline函数"><a href="#getline函数" class="headerlink" title="getline函数"></a>getline函数</h5><p><img src="/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210202094057542.png" alt="image-20210202094057542"></p>
 <h4 id="继承的基本概念和语法"><a href="#继承的基本概念和语法" class="headerlink" title="继承的基本概念和语法"></a>继承的基本概念和语法</h4><p>继承与派生是同一过程从不同角度看</p>
 <p>​    保持已有类的特性而构造新类的过程称为继承。</p>
 <p>​    在已有类的基础上新增自己的特性而产生新类的过程称为派生</p>
@@ -534,13 +549,13 @@
 <p>派生出的新类称为派生类（或子类）</p>
 <p>直接参与派生出某类的基类称为直接基类</p>
 <p>基类的基类甚至更高层的基类称为间接基类</p>
-<p><img src="C:\Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210203094420837.png" alt="image-20210203094420837"></p>
-<h4 id="继承方式"><a href="#继承方式" class="headerlink" title="继承方式"></a>继承方式</h4><p><img src="C:\Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210203095126978.png" alt="image-20210203095126978"></p>
-<p><img src="C:\Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210203095237022.png" alt="image-20210203095237022"></p>
-<p><img src="C:\Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210203103722876.png" alt="image-20210203103722876"></p>
-<p><img src="C:\Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210203104514650.png" alt="image-20210203104514650"></p>
-<p><img src="C:\Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210203104609504.png" alt="image-20210203104609504"></p>
-<p><img src="C:\Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210203104939154.png" alt="image-20210203104939154"></p>
+<p><img src="/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210203094420837.png" alt="image-20210203094420837"></p>
+<h4 id="继承方式"><a href="#继承方式" class="headerlink" title="继承方式"></a>继承方式</h4><p><img src="/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210203095126978.png" alt="image-20210203095126978"></p>
+<p><img src="/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210203095237022.png" alt="image-20210203095237022"></p>
+<p><img src="/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210203103722876.png" alt="image-20210203103722876"></p>
+<p><img src="/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210203104514650.png" alt="image-20210203104514650"></p>
+<p><img src="/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210203104609504.png" alt="image-20210203104609504"></p>
+<p><img src="/2021/02/05/c-%E7%AC%94%E8%AE%B0/Users\82407\AppData\Roaming\Typora\typora-user-images\image-20210203104939154.png" alt="image-20210203104939154"></p>
 
       
 
@@ -620,7 +635,7 @@
     <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
     <p>扫一扫，分享到微信</p>
     <div class="wx-qrcode">
-      <img src="//pan.baidu.com/share/qrcode?url=http://example.com/2021/01/19/C++%E7%AC%94%E8%AE%B0/" alt="微信分享二维码">
+      <img src="//pan.baidu.com/share/qrcode?url=http://example.com/2021/02/05/c-%E7%AC%94%E8%AE%B0/" alt="微信分享二维码">
     </div>
 </div>
 
@@ -634,15 +649,11 @@
   
 <nav id="article-nav">
   
-    <a href="/2021/02/05/hello-world/" id="article-nav-newer" class="article-nav-link-wrap">
-      <i class="icon-circle-left"></i>
-      <div class="article-nav-title">
-        
-          Hello World
-        
-      </div>
-    </a>
   
+    <a href="/2021/02/05/First-blog/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">First blog</div>
+      <i class="icon-circle-right"></i>
+    </a>
   
 </nav>
 
